@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cornflowerblue;
+}
+
+.container {
+    width: 80%;
+    height: 90vh;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.result {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: azure;
+    border-radius: 2%;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.pilih {
+    box-sizing: border-box;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+#bot-result {
+    font-size: xx-large;
+    animation-name: haha;
+    animation-duration: 3s;
+}
+
+.kertas , .gunting , .batu {
+    width: 30%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    font-size: xx-large;
+    cursor: pointer;
+    border: 2px solid black;
+} 
+
+.kertas:hover , .gunting:hover , .batu:hover {
+    background-color: azure;
+} 
